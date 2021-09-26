@@ -1,0 +1,20 @@
+.navbar{
+  min-height: 5rem;
+  background: rgb(42,102,154);
+  display: flex;
+  justify-content: left
+}
+
+.company{
+  margin: 0;
+  font-size: 2rem;
+  font-weight: 500;
+  padding: 20px 5px;
+  color: white;
+}
+
+.logo{
+  margin: 20px 0 5px 5px;
+  width: 2%;
+  height: 2%
+}

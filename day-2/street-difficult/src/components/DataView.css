@@ -1,0 +1,101 @@
+.view{
+  margin: 2% 15%;
+  padding: 1rem;
+  background: rgb(42,102,154);
+  display: flex;
+  align-items: center;
+  text-transform: uppercase;
+  color: white;
+}
+
+.view-column{
+  width: 50%;
+}
+
+.borough-text{
+  background: rgb(115,225,249);
+  font-weight: 900;
+  font-size: 3rem;
+  margin: 2rem;
+  border-radius: 10px;
+  color: rgb(42,102,154);
+  box-shadow: 10px 10px 8px rgb(42,102,154);
+}
+
+.borough{
+  margin: 2rem;
+  padding: 2rem;
+  min-height: 25rem;
+  background: url("./images/map.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center
+}
+
+.data-view{
+  display: flex;
+  flex-direction: row;
+}
+
+.data-view-column{
+  width: 50%;
+  border-style: solid;
+  border-width: 1px;
+  border-top-width: 0;
+  border-bottom-width: 0;
+  border-color: rgba(255,255,255,.5)
+}
+
+.left{
+  border-left-width: 0;
+}
+
+.right{
+  border-right-width: 0;
+}
+
+.text{
+  margin: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-left-width: 0;
+  border-right-width: 0;
+  border-top-width: 0;
+  border-color: rgba(255,255,255,.5)
+}
+
+.text-header{
+  font-size: 1.4rem;
+  margin:0px 0px .5rem;
+  color: rgba(115,225,249)
+}
+
+.text-data{
+  margin:.5rem 0 0;
+  font-size:3rem
+}
+
+.text-label{
+  font-size: 1.2rem;
+  margin:0px 0px .5rem;
+  color: rgba(255,255,255,.5)
+}
+
+
+.bottom{
+  border-bottom-width: 0;
+}
+
+#map{
+  width: 300px;
+  padding: 0;
+  margin-bottom: 1rem
+}
+
+.analysis-bubble{
+  width: 100%;
+  padding: 2px;
+  background-color: dodgerblue;
+  font-size: 15px;
+  border-radius: 25px;
+}

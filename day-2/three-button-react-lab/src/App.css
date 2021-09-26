@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.Nav h1 {
+  padding: 50px;
+  margin: 0px;
+  font-size: 3rem;
+  font-family: Helvetica, sans-serif;
+  font-weight: 900;
+  background-color: black;
+  color: white;
+}
+
+.StateCard  {
+  margin: 50px 80px;
+  color: white;
+  background-color: #4281a4;
+  box-shadow: 5px 5px 5px #ddd;
+  padding: 40px;
+
+}
+
+.StateCard .card-content {
+  display: flex;
+  justify-content: space-between;
+  margin: 40px 10% 0px;
+}
+
+.StateCard button {
+  background-color: black;
+  color: white;
+  padding: 5px 10px;
+  transition-duration: 0.1s;
+  border: none;
+  border-radius: 0px;
+  margin: 10px;
+  font-size: 1.2rem;
+  outline: none;
+}
+
+.StateCard button:hover {
+  transform: scale(1.2, 1.2);
+  box-shadow: 2px 2px 0px black;
+}
+
+.StateCard button:active {
+  transform: scale(1.1, 1.1);
+}

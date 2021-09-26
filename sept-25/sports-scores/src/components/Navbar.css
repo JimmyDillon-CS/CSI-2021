@@ -1,0 +1,11 @@
+.navbar{
+  height: 3rem;
+  background: rgb(220,220,220);
+  display: flex;
+  justify-content: left
+}
+
+.logo{
+  margin-left: 1rem;
+  font-weight: 700
+}

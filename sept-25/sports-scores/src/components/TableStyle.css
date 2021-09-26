@@ -1,0 +1,27 @@
+.table-rows{
+  margin: 0 20%;
+  padding: 1rem 0;
+  font-family: helvetica;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-radius: 0 0 5px 5px
+}
+
+.table-header{
+  margin: 0 20% 0;
+  padding: 1rem 0;
+  font-family: helvetica;
+  font-weight: 700;
+  background-color: rgb(220,220,220);
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+  border-radius: 5px 5px 0 0;
+  text-transform: uppercase;
+}
+
+h1{
+  color: rgba(0,0,0,.8);
+  font-size: 4rem;
+  font-weight: 700;
+  text-transform: uppercase;
+}

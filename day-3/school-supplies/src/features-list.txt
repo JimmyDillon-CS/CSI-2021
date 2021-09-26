@@ -1,0 +1,16 @@
+PRIORITY:
+DONE * Prices next to the items on the cards
+DONE * Function that will add items to Cart
+DONE * Create a cart that can have items added to it
+
+NEXT:
+DONE * Total should appear at the bottom
+* Format: Item, price, x qty, total for that items, grand total below
+* Button visual feedback (right now feels like clicking on nothing)
+* Summary: Itemize choices, with totals and quantities and grand total 
+
+FUTURE:
+* Product cards could have images
+* Availability (in stock or not) - show on card
+* Recommendations for other products to buy
+* Payment methods
